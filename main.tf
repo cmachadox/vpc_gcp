@@ -1,7 +1,6 @@
 provider "google" {
   project                  = var.project_id
   region                   = var.region
-# credentials              = file("acn-adcc-cockpit-gcloud-da1d6aa74c77.json")
 }
 
 terraform {
